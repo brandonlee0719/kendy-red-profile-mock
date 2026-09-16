@@ -20,11 +20,6 @@ import {
   LanguageSwitchContainer,
 } from "./styles";
 
-interface SocialLinkProps {
-  href: string;
-  src: string;
-}
-
 const Footer = ({ t }: { t: TFunction }) => {
   const handleChange = (language: string) => {
     i18n.changeLanguage(language);
